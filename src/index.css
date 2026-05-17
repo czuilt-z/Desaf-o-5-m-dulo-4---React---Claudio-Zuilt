@@ -1,0 +1,270 @@
+
+/* ------------------------------ General ------------------------- */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  width: 100%;
+  /* border: 1px solid #212529; */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 43vh;
+
+}
+
+/* ------------------------------ Navbar ------------------------- */
+.Navbar{
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+/* ------------------------------ HOME ------------------------- */
+
+.Home-container{
+  min-height:40vh;
+  width: 100%;
+  padding-bottom: 20px;
+  border: 1px solid #f8ab05;
+  
+}
+
+/* ----------- Header ------------ */
+.HeaderContent {
+  position: relative;
+  min-height: 300px;
+  color: white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+   
+}
+
+
+
+.HeaderContent h1{
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+  
+}
+
+.HeaderContent p{
+  font-size: 24px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 1);
+  
+} 
+
+/* ----------- Cards ------------ */
+
+.Cards-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+/* CARD */
+.pizza-card{
+  width: 18rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* INGREDIENTES */
+.ingredients{
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  list-style: none;
+  padding: 0;
+}
+
+/* PRECIO */
+.price{
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* BOTONES */
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+
+/* ------------------------------ Main Content ------------------------- */
+
+
+.MainContent{
+  background-color: #fff;
+  color: #212529;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+border: 1px solid #07ee12;
+}
+/* ------------------------------ Forms Container ------------------------- */
+.Forms-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 610px;
+  gap: 40px;
+  /* border: 2px solid #f80505; */
+}
+
+/* -- Login Form -- */
+
+.login-form{
+  display: flex;
+  flex-direction: column;
+  
+  width: 300px;
+  border: 1px solid #fac004;
+  border-radius: 8px;
+  padding: 20px;
+  height: 409px !important;
+}
+
+/* -- Register Form --*/
+.register-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  border: 1px solid #fac004;
+  border-radius: 8px;
+  padding: 20px;
+  min-height: 200px;
+}
+
+.register-form label{
+  width: 100%;
+}
+
+/* ------------------------------ Footer ------------------------- */
+
+.FooterContent{
+  background-color: #343a40;
+  color: #fff;
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 34px;
+}
+
+/* ------------------------------ Cart controles ------------------------- */
+
+.Cart-container{
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,.08);
+}
+
+.cart-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 0;
+    border-bottom:1px solid #ddd;
+}
+
+.cart-info{
+    display:flex;
+    align-items:center;
+    gap:18px;
+}
+
+.cart-info img{
+    width:80px;
+    height:80px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.cart-text h4{
+    margin:0;
+    text-transform:capitalize;
+}
+
+.cart-text p{
+    margin:5px 0 0;
+    color:#666;
+    font-weight:600;
+}
+
+.cart-controls{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.cart-controls button{
+    width:35px;
+    height:35px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.cart-controls span{
+    font-size:20px;
+    font-weight:700;
+    min-width:25px;
+    text-align:center;
+}
+
+.total-box{
+    margin-top:30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.pay-btn{
+    padding:12px 22px;
+    border:none;
+    border-radius:10px;
+    background:black;
+    color:white;
+    cursor:pointer;
+    font-weight:bold;
+}
