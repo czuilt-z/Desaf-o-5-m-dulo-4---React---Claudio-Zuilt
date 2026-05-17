@@ -1,5 +1,5 @@
 import napolitana from "../assets/img/napolitana.jpg";
-import española from "../assets/img/española.jpg";
+import espanola from "../assets/img/espanola.jpg";
 import pepperoni from "../assets/img/pepperoni.jpg";
 import cuatroEstaciones from "../assets/img/cuatro-estaciones.jpg";
 import bacon from "../assets/img/bacon.jpg";
@@ -16,7 +16,7 @@ function Pizza() {
   // Objeto que relaciona IDs con imágenes
   const pizzaImages = {
     p001: napolitana,
-    p002: española,
+    p002: espanola,
     p003: pepperoni,
     p004: cuatroEstaciones,
     p005: bacon,
@@ -101,7 +101,7 @@ function Pizza() {
               variant="dark"
               size="sm"
             >
-              Añadir 🛒
+              Agregar 🛒
             </Button>
 
           </div>

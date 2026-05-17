@@ -14,7 +14,7 @@ function RegisterForm() {
         console.log("el password es el siguiente", password)
         console.log("el name es el siguiente", name)
         if(password.length < 6){
-            alert("La contraseña debe tener al menos 6 caracteres")
+            alert("La clave de acceso debe tener al menos 6 caracteres")
             return
         }
         if(password === ""){
@@ -33,7 +33,7 @@ function RegisterForm() {
         }
 
         if(password !== confirmPassword){
-            alert("Las contraseñas no coinciden")
+            alert("Las claves de acceso no coinciden")
             return
         }
         alert("Cuenta creada exitosamente")
@@ -59,12 +59,12 @@ function RegisterForm() {
                 <input value={email} onChange={(evento)=>{setEmail(evento.target.value)}} type="email" id="email" name="email" required placeholder="john.doe@example.com" />
                 <br />
 
-                <label htmlFor="password">Contraseña:</label>
+                <label htmlFor="password">Contrasena:</label>
                 <br />
                 <input value={password} onChange={(evento)=>{setPassword(evento.target.value)}} type="password" id="password" name="password" required placeholder="••••••••" />
                 <br />
                 
-                <label htmlFor="confirmPassword">Confirmar Contraseña:</label>
+                <label htmlFor="confirmPassword">Confirmar Contrasena:</label>
                 <br />
                 <input value={confirmPassword} onChange={(evento)=>{setConfirmPassword(evento.target.value)}} type="password" id="confirmPassword" name="confirmPassword" required placeholder="••••••••" />
                 <br />

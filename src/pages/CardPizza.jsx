@@ -33,7 +33,7 @@ function CardPizza({ name, price, ingredients, img }) {
           </Button>
 
           <Button variant="dark" size="sm">
-            Añadir 🛒
+            Agregar 🛒
           </Button>
         </div>
       </Card.Body>

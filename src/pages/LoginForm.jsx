@@ -23,7 +23,7 @@ function LoginForm() {
         console.log("el name es el siguiente", name)
 
         if(password.length < 6){
-            alert("La contraseña debe tener al menos 6 caracteres")
+            alert("La clave debe tener al menos 6 caracteres")
             return
         }
         if(email == ""){
